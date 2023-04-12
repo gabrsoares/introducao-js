@@ -27,3 +27,33 @@
     padding: .5rem 1rem;
     cursor: pointer;
 }
+
+.box-6  {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-9 {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.box-9 p {
+    position: absolute;
+    left: -100px;
+    transition: 1s;
+}
+
+.box-9:hover p {
+    transition: 1s;
+    left: 100px;
+}
+
+.box-10 {
+    transform: scaley(-1);
+}
+.box-10:hover {
+    transform: scaley(1);
+}
+
